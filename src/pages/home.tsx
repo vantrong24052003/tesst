@@ -3,19 +3,18 @@ import '../styles/global.css'
 import MainLayout from '../layouts/MainLayout'
 import HeroSection from '../components/HeroSection'
 import HowItWorks from '../components/HowItWorks';
-
 export default function Home() {
-   
+
   return (
     <MainLayout>
-<HeroSection
+      <HeroSection
         title="Unlock the future you"
         description="Say hello to CareerExplorer, the world’s leading career advancement platform."
         buttonText="Get Started"
-        buttonLink="/get-started"
+        buttonLink="/login"
         learnMoreText="Learn More About CareerExplorer"
         learnMoreLink="/about"
-        imageSrc="/images/hero-image.png" 
+        imageSrc="/images/hero-image.png"
         overlayImageSrc="/images/career-explorer.png"
       />
       {/* Section 2: Features */}
@@ -31,7 +30,7 @@ export default function Home() {
               <h4>Assessment</h4>
               <p>Refine your ideal experiences and top values, and learn what makes you tick.</p>
             </div>
-            
+
             {/* Feature 2 */}
             <div className="col-md-4">
               <h4>Matches</h4>
