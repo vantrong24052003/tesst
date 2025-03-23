@@ -88,7 +88,7 @@ export default function LoginPage() {
                             alt="Google"
                             className="google-icon"
                         />
-                        Or, sign-in with Google
+                        <span className="google-button-text">Or, sign-in with Google</span>
                     </button>
 
                     <div className="auth-footer">
